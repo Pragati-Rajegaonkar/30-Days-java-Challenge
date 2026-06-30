@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class factorialnumber {
+    public static void main(String[]args)
+    {
+        Scanner sc = new Scanner(System.in);
+          System.out.println("Enter the number:");
+          int num = sc.nextInt();
+
+       //int num= 4;
+
+        for(int i = num-1; i>0; i--)
+        {
+          num = i*num;
+        }
+        System.out.println("factorial number:" + num);
+
+    }
+}
+Output/
+Enter the number:
+5
+factorial number:120
